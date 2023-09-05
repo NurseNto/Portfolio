@@ -1,0 +1,27 @@
+/* In your CSS file (e.g., App.css) */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #827474;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin-right: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+}

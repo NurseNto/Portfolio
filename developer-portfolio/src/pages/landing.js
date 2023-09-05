@@ -4,7 +4,6 @@ export default function Gallery() {
     return (
       <section>
 
-        <NavigationMenu/>
         
       </section>
     );
