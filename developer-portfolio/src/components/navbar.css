@@ -4,11 +4,16 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #827474;
+  
 }
 
 .navbar h2 {
   margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar h3{
+  line-break: auto;
 }
 
 .navbar ul {
@@ -23,5 +28,6 @@
 
 .navbar a {
   text-decoration: none;
-  color: #333;
+  color: #4b4a4a;
+  font-family:Arial, Helvetica, sans-serif;
 }
