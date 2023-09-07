@@ -9,10 +9,15 @@ import './App.css';
 function App() {
   return (
     <>
+    <header>
       <NavigationMenu />
+      </header>
+      <main>
       <Routing />
+      </main>
+      <footer>
       <Footer />
-    
+     </footer>
     </>
   );
 }

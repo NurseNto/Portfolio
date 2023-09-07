@@ -4,12 +4,11 @@ import './body.css';
 
 function Buttons() {
   return(
-<div className='btn-container'>
-
-<a class="round-button" href="#" role="button" >Skills</a>
-<a class="round-button" href="#" role="button">Projects</a>
-<a class="round-button" href="#" role="button">Contact</a>
-</div>
+    <div className='btn-container'>
+    <a className="round-button big-button" href="#" role="button" id="btns">Skills</a>
+    <a className="round-button big-button" href="#" role="button" id="btnp">Projects</a>
+    <a className="round-button big-button" href="#" role="button" id="btnc">Contact</a>
+  </div>
   )
 }
 

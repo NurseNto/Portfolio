@@ -1,0 +1,54 @@
+#skills {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* project.css */
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Display four cards in a row */
+    gap: 20px; /* Adjust the gap between cards as needed */
+    list-style: none;
+    padding: 0;
+  }
+  
+  .card-item {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    max-height: 150px; /* Adjust the max height of the images */
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  .text-muted {
+    font-size: 0.8rem;
+    color: #777;
+  }
+  

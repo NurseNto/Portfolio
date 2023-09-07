@@ -3,8 +3,7 @@ import './footer.css'; // Import your CSS file for footer styling
 
 function Footer() {
   return (
-    
-    <footer className="footer">
+    <footer className="footer" >
       <div className="container">
         <div className="section">
           <h4 className="section-title">Phone</h4>

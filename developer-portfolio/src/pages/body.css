@@ -1,16 +1,11 @@
-/* image.css */
-.picture {
-    text-align: center; /* Center the image horizontally within its container */
-  }
-  
+
   .image {
-    width: 450px; /* Limit the image width to its container's width */
-    height: 450px; /* Maintain the image's aspect ratio */
+     /* Maintain the image's aspect ratio */
     display: block; /* Remove any inline spacing */
     margin: 0 auto; /* Center the image horizontally within its parent */
     object-fit:cover;
     margin-top: 20px;
-    border-radius: 100%;
+   
   }
   
   /* image.css */
@@ -18,8 +13,7 @@
     display: flex; /* Use flexbox to create a flexible layout */
     align-items: center; /* Vertically center items within the container */
     margin-left: 200px;
-    margin-top: 50px;
-    
+    margin-top: 20px;
   }
   
   .picture {
@@ -28,9 +22,10 @@
   }
   
   .image {
-    max-width: 400px; /* Limit the image width */
-    height: 400px;
+    width: 450px; /* Limit the image width to its container's width */
+    height: 450px;
     border-radius: 50%;
+    user-select: none;
   }
   
   .text {
@@ -40,32 +35,44 @@
   
   /* Your CSS file (e.g., Button.css) */
 
-
-.btn-container{
-  background-color: yellow;
-
-}
   
 /* Your CSS file (e.g., Button.css) */
+/* body.css */
 .round-button {
-  border-radius: 100%;
-  height: 400px;
-  width: 400px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  
-
-  /* Add margin to create spaces between buttons */
-  margin-right: 20px; /* Adjust the value as needed */
-}
-
-/* Style for the last button to remove the right margin */
-.round-button:last-child {
-  margin-right: 0; /* Remove margin for the last button */
+  display: inline-block;
+  background-color: #007BFF; /* Button background color */
+  color: #fff; /* Button text color */
+  border-radius: 50%; /* Make it round */
+  width: 100px; /* Set the width to create a circle */
+  height: 100px; /* Set the height to create a circle */
+  text-decoration: none;
+  font-size: 18px; /* Adjust the font size as needed */
+  line-height: 100px; /* Vertically center text */
+  text-align: center; /* Horizontally center text */
+  margin: 10px; /* Add some margin between buttons */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
 .round-button:hover {
-  background-color: #0056b3;
+  background-color: #0056b3; /* Change color on hover */
 }
+
+/* Additional styling for the container */
+.btn-container {
+  text-align: left;
+}
+
+#btnp{
+  background-color:burlywood
+}
+#btnc{
+  background-color: darksalmon;
+}
+
+
+
+
+
+
+
+
