@@ -13,11 +13,11 @@ export default function Projects() {
     },
     {
       title: 'Project 3',
-      description: 'Description for Project 3',
+      description: 'Built a responsive e-commerce website using Angular2+ and Node.js.',
     },
     {
       title: 'Project 4',
-      description: 'Description for Project 4',
+      description: 'Developed a task management app with authentication using MERN stack.',
     },
   ];
 

@@ -5,9 +5,9 @@ import './body.css';
 function Buttons() {
   return(
     <div className='btn-container'>
-    <a className="round-button big-button" href="#" role="button" id="btns">Skills</a>
-    <a className="round-button big-button" href="#" role="button" id="btnp">Projects</a>
-    <a className="round-button big-button" href="#" role="button" id="btnc">Contact</a>
+    <a className="round-button big-button" href="Skills" role="button" id="btns">Skills</a>
+    <a className="round-button big-button" href="Projects" role="button" id="btnp">Projects</a>
+    <a className="round-button big-button" href="Contact" role="button" id="btnc">Contact</a>
   </div>
   )
 }

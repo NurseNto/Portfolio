@@ -18,13 +18,13 @@ function Footer() {
         <div className="section">
           <h4 className="section-title">Follow Me:</h4>
           <div className="social-icons">
-            <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/ntombinurse.masango" target="_blank" rel="noopener noreferrer">
               <i className="fa fa-facebook"></i>
             </a>
-            <a href="https://www.twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
-              <i className="fa fa-twitter"></i>
+            <a href="https://github.com/NurseNto" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/nurse-ntombi-masango-932b70117" target="_blank" rel="noopener noreferrer">
               <i className="fa fa-linkedin"></i>
             </a>
           </div>

@@ -34,7 +34,7 @@ img, video {
     height: auto;
     max-width: 100%;
 }
-img:hover{
+.imge:hover{
     scale:1.5;
 }
 .container {

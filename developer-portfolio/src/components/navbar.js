@@ -6,7 +6,7 @@ function NavigationMenu() {
     <section className="navbar">
     <h2> <img src="./images/nurse.png" className="logo" alt="Card image cap" width="80" height="80"/>Nurse Masango</h2>
     <ul className="nav justify-content-end">
-    <li className="nav-item">
+    <li className=" nav-item">
         <a className="nav-link active" aria-current="page" href="Home">
          Home
         </a>

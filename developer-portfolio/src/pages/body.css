@@ -22,8 +22,8 @@
   }
   
   .image {
-    width: 450px; /* Limit the image width to its container's width */
-    height: 450px;
+    width: 28rem; /* Limit the image width to its container's width */
+    height: 28rem;
     border-radius: 50%;
     user-select: none;
   }
