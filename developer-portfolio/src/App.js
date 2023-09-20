@@ -12,7 +12,7 @@ function App() {
     <header>
       <NavigationMenu />
       </header>
-      <main>
+      <main >
       <Routing />
       </main>
       <footer>

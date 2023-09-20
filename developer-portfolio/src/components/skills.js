@@ -27,7 +27,7 @@ function Skills() {
       </div>
       <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
         <img className="w-20 mx-auto imge" src="/images/angular.png" alt="FireBase icon" />
-        <p className="my-4">FireBase</p>
+        <p className="my-4">Angular</p>
       </div>
       <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
         <img className="w-20 mx-auto" src="/images/postgresql.png" alt="Mongo icon" />
